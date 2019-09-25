@@ -1,0 +1,14 @@
+my:
+  users:
+    - name: 李四
+      address: 广东
+      favorite:
+        - 足球
+        - 徒步
+        - coding
+    - name: 张三
+      address: 湖南
+      favorite:
+        - 篮球
+        - 乒乓球
+        - 游戏
