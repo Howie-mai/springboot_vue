@@ -2,18 +2,20 @@ package com.zhku.mh.entities;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
 
 import java.io.Serializable;
 import java.util.Date;
 
-public class Book implements Serializable {
+/**
+ * @ClassName:
+ * @description
+ * @author: mh
+ * @create: 2019-09-26 09:55
+ */
+public class FastJsonBook implements Serializable {
     private String name;
     private String author;
-    @JsonIgnore //输出时不显示
     private Float price;
-    @JsonFormat(pattern = "yyyy-MM-dd HH:MM:SS")
     private Date pulishTime;
 
     public String getName() {
