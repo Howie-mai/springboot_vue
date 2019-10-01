@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    one:
+      url: jdbc:mysql://localhost:3306/datasource1?useUnicode=true&useSSL=true&serverTimezone=UTC
+      type: com.alibaba.druid.pool.DruidDataSource
+      username: root
+      password: 123456
+
+    two:
+      url: jdbc:mysql://localhost:3306/datasource2?useUnicode=true&useSSL=true&serverTimezone=UTC
+      type: com.alibaba.druid.pool.DruidDataSource
+      username: root
+      password: 123456
+
+server:
+  port: 8888
