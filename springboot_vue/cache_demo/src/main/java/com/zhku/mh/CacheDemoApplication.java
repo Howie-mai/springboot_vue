@@ -5,11 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.annotation.EnableCaching;
 
 @SpringBootApplication
-@EnableCaching
-public class RedisClusterDemoApplication {
+@EnableCaching //开启缓存注解
+public class CacheDemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(RedisClusterDemoApplication.class, args);
+        SpringApplication.run(CacheDemoApplication.class, args);
     }
 
 }
