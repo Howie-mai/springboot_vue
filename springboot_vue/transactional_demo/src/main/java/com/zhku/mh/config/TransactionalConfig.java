@@ -37,6 +37,7 @@ public class TransactionalConfig {
         source.addTransactionalMethod("add*", txAttr_Required);
         source.addTransactionalMethod("save*", txAttr_Required);
         source.addTransactionalMethod("insert*", txAttr_Required);
+        source.addTransactionalMethod("create*", txAttr_Required);
         source.addTransactionalMethod("update*", txAttr_Required);
         source.addTransactionalMethod("set*", txAttr_Required);
         source.addTransactionalMethod("del*", txAttr_Required);
