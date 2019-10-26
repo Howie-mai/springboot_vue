@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/demo?useUnicode=true&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+    schema: classpath:/org/springframework/batch/core/schema-mysql.sql
+  #批处理
+  batch:
+    initialize-schema: always
+    job:
+      enabled: false
+
+
+logging:
+  level:
+    com:
+      zhku:
+        mh:
+          mapper: debug
+server:
+  port: 8989

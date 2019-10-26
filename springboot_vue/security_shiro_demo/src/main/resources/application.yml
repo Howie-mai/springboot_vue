@@ -1,0 +1,13 @@
+shiro:
+  enabled: true
+  web:
+    enabled: true
+  loginUrl: /login
+  successUrl: /index
+  unauthorizedUrl: /unauthorized
+  sessionManager:
+    sessionIdCookieEnabled: true
+    sessionIdUrlRewritingEnabled: true
+
+server:
+  port: 8888

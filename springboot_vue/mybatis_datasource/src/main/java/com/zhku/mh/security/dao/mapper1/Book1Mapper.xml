@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhku.com.zhku.mh.security.dao.mapper1.Book1Mapper">
+
+    <insert id="insertBook" parameterType="com.zhku.com.zhku.mh.security.entities.Book">
+        INSERT INTO t_book (name,author) VALUES (#{name},#{author});
+    </insert>
+
+</mapper>

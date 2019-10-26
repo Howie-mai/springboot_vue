@@ -1,8 +1,7 @@
 package com.zhku.mh;
 
-import com.zhku.mh.dao.BookDao;
-import com.zhku.mh.entities.Book;
-import org.junit.After;
+import com.zhku.mh.security.dao.BookDao;
+import com.zhku.mh.security.entities.Book;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
